@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form id="login" action="/login" method="post">
+		<div class="two-thirds column" id="main">
+			<label for="equipmentType">type</label>
+			<select id="equipmentType" name="equipmentType">
+				<option value="choose">Please choose a type</option>
+				<option value="cameras">Camera</option>
+				<option value="projectors">Projector</option>
+			</select>
+			<br>
+
+			<lable for="model">model</lable>
+			<select id="model" name="model">
+				<option>Please choose a type first</option>
+			</select>
+
+			<input id="submit" type="submit" value="submit" />
+
+		</div>
+	</form>
+
+	<script src="js/utilities.js"></script>
+	<script src="js/select.js"></script>
+</body>
+</html>
